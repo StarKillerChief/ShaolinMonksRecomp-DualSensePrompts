@@ -1,0 +1,59 @@
+{
+  "id": "DualSensePrompts_EN",
+  "name": "DualSense Prompts (English)",
+  "summary": "Replaces the Xbox button icons with DualSense prompts when the game language is English.",
+  "authors": [
+    "Fábio"
+  ],
+  "type": "language",
+  "language": "en",
+  "install_dir": "languages/DualSensePrompts_EN",
+  "sources": {
+    "fonts/small.xpr": {
+      "file": "default.xbe",
+      "offset": 5362664,
+      "size": 18432
+    },
+    "fonts/large.xpr": {
+      "file": "default.xbe",
+      "offset": 5447704,
+      "size": 133120
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-19",
+      "recomp": "0.2.0",
+      "url": "https://github.com/OAleex/ShaolinMonksRecompKrypt/releases/download/DualSensePrompts_EN-v1.1.0/DualSensePrompts_EN-1.1.0.tar.xz",
+      "size": 6720,
+      "sha256": "2123219816a29d941b08ba3bb89365b955e7610e87360d04fcc6eef38f9299be",
+      "files": 3,
+      "patches": [
+        {
+          "path": "fonts/large.xpr",
+          "source": {
+            "file": "default.xbe",
+            "offset": 5447704,
+            "size": 133120
+          },
+          "source_sha256": "3d059a3429c8d492d85839aae55cd73bd69804961ed239b2480e2ea79c7600f7",
+          "target_sha256": "6eed5eebad10e1f469046399cffa521bd3ac7f029b1d6ce3fcefafade878409c"
+        },
+        {
+          "path": "fonts/small.xpr",
+          "source": {
+            "file": "default.xbe",
+            "offset": 5362664,
+            "size": 18432
+          },
+          "source_sha256": "cc442256ded1937a86d94401fdf91e165b12f614374edae0795fb58cd60cd127",
+          "target_sha256": "6764435485128e26fef841502afa05973f4245bf00b770616561b087e2dfcc73"
+        }
+      ]
+    }
+  ],
+  "features": [
+    "fonts"
+  ]
+}
